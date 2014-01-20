@@ -1,0 +1,10 @@
+<?php
+$str="qwertyuiopasdfghjklzxcvbnm";
+for($i=0;$pass[$i]!='';$i++)
+for($j=0;$j<26;$j++)
+if($pass[$i]==$str[$j])
+{	$pass[$i]=$str[25-$j];
+	break;
+}
+
+?>
